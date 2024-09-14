@@ -1,22 +1,26 @@
+.bg {
 
-.bg{
-    background-color: rgba(193, 235, 235, 0.552);
+    background-color: #f0f8ff;
+    border-color: aquamarine;
+    color: black;
+
 }
 
 
-.p{
-    color: rgb(68, 68, 229);
-    background-color: greenyellow;
+.para-div {
+    color: black;
+    background-color: dark rgb(83, 82, 82);
     border-radius: 10px;
     padding-left: 7px;
     padding-top: 2px;
     padding-bottom: 2px;
     margin-top: 50px;
     margin-bottom: 0px;
+    border-color: black;
 }
 
-.port{
-    color:black;
+.port {
+    color: black;
     width: 100%;
     display: block;
     height: 50px;
@@ -26,78 +30,87 @@
     border-style: none;
     background-color: rgb(188, 177, 177);
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
 
 }
 
 
-.about{
+.about {
     color: rgb(0, 0, 0);
-    background-color: rgb(71, 162, 192);
+    background-color: #a8adb2;
     border-radius: 5px;
-     border-color: rgb(239, 237, 237);
-     cursor: pointer;
-     padding-left: 10px;
-     padding-right: 20px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     margin-right: 100px;
-     margin-left:150px;
-     border-style: none;
-     margin-top: 10px;
-   
+    border-color: rgb(239, 237, 237);
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    margin-left: 150px;
+    border-style: none;
+    margin-top: 20px;
+    text-decoration: none;
+
 
 }
-.about:hover{
+
+.about:hover {
     opacity: .7;
 }
 
-.skills{
+.skills {
     color: rgb(0, 0, 0);
-    background-color: rgb(71, 162, 192);
+    background-color: #a8adb2;
     border-radius: 5px;
-     border-color: rgb(239, 237, 237);
-     cursor: pointer;
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     margin-right: 200px;
-     margin-left: 400px;
-     border-style: none;
-     margin-top: 10px;
-  
-     
+    border-color: rgb(239, 237, 237);
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 400px;
+    border-style: none;
+    margin-top: 10px;
+    text-decoration: none;
+
+
+
 }
 
-.skills:hover{
-    background-color:rgb(0, 191, 255) ;
+.skills:hover {
+    background-color: #c0c6cc;
 }
 
-.hobbies{
+.hobbies {
     color: rgb(0, 0, 0);
-    background-color: rgb(71, 162, 192);
+    background-color: #a8adb2;
     border-radius: 5px;
-     border-color: rgb(239, 237, 237);
-     cursor: pointer;
-     padding-left: 20px;
-     padding-right: 20px;
-     padding-top: 10px;
-     padding-bottom: 10px;
-     margin-right: 200px;
-     margin-left: 200px;
-     border-style: none;
-     transition: .15s;
-     margin-top: 10px;
+    border-color: rgb(239, 237, 237);
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-style: none;
+    transition: .15s;
+    margin-top: 10px;
+    text-decoration: none;
+
 }
-     
-.hobbies:hover{
-    padding-right:30px ;
+
+.hobbies:hover {
+    padding-right: 30px;
     padding-bottom: 20px;
 }
 
-img{
+img {
     height: 100px;
     width: 100px;
     border-radius: 50px;
@@ -106,17 +119,76 @@ img{
     transition: padding-left .15 s;
 
 }
-img:hover{
+
+img:hover {
     padding-right: 5px;
     padding-left: 5px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.para{
+.para {
     border-style: dashed;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 0px;
+}
+
+.about-me {
+    text-align: center;
+    background-color: #a8adb2;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.qualification-me {
+    text-align: center;
+    background-color: #a8adb2;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.skill-me {
+    text-align: center;
+    background-color: #a8adb2;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.contact-me {
+    text-align: center;
+    background-color: #a8adb2;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.contact {
+text-decoration:none;
+}
+
+.linkedin {
+    background-color: #0072b1;
+    border-style: none;
+    text-decoration:none;
+    color: white;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.instagram {
+    background-color:  #d02855;
+    border-style: none;
+    text-decoration:none;
+    color: white;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
