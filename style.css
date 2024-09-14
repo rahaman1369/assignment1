@@ -1,0 +1,122 @@
+
+.bg{
+    background-color: rgba(193, 235, 235, 0.552);
+}
+
+
+.p{
+    color: rgb(68, 68, 229);
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.port{
+    color:black;
+    width: 100%;
+    display: block;
+    height: 50px;
+    font-weight: 100px;
+    font-size: 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(188, 177, 177);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+.about{
+    color: rgb(0, 0, 0);
+    background-color: rgb(71, 162, 192);
+    border-radius: 5px;
+     border-color: rgb(239, 237, 237);
+     cursor: pointer;
+     padding-left: 10px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-right: 100px;
+     margin-left:150px;
+     border-style: none;
+     margin-top: 10px;
+   
+
+}
+.about:hover{
+    opacity: .7;
+}
+
+.skills{
+    color: rgb(0, 0, 0);
+    background-color: rgb(71, 162, 192);
+    border-radius: 5px;
+     border-color: rgb(239, 237, 237);
+     cursor: pointer;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-right: 200px;
+     margin-left: 400px;
+     border-style: none;
+     margin-top: 10px;
+  
+     
+}
+
+.skills:hover{
+    background-color:rgb(0, 191, 255) ;
+}
+
+.hobbies{
+    color: rgb(0, 0, 0);
+    background-color: rgb(71, 162, 192);
+    border-radius: 5px;
+     border-color: rgb(239, 237, 237);
+     cursor: pointer;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-right: 200px;
+     margin-left: 200px;
+     border-style: none;
+     transition: .15s;
+     margin-top: 10px;
+}
+     
+.hobbies:hover{
+    padding-right:30px ;
+    padding-bottom: 20px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    display: flex;
+    margin-right: 30px;
+    transition: padding-left .15 s;
+
+}
+img:hover{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.para{
+    border-style: dashed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 0px;
+}
